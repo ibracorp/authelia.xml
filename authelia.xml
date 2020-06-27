@@ -15,7 +15,7 @@
   <Overview>
         Authelia is an open-source authentication and authorization server providing 2-factor authentication and single sign-on (SSO) for your applications via a web portal. It acts as a companion of reverse proxies like nginx, Traefik or HAProxy to let them know whether queries should pass through. Unauthenticated user are redirected to Authelia Sign-in portal instead.
   </Overview>
-  <Support>On your own</Support>
+  <Support>https://forums.unraid.net/topic/94096-support-ibracorp-all-images-and-files/</Support>
   <Registry>https://hub.docker.com/r/authelia/authelia/</Registry>
   <GitHub>https://github.com/authelia/authelia</GitHub>
   <Repository>authelia/authelia</Repository>
