@@ -2,7 +2,7 @@
 <Containers>
   <TemplateURL></TemplateURL>
   <Beta>False</Beta>
-  <Category>Security: Tools:</Category>
+  <Category>Security:</Category>
   <Name>Authelia</Name>
   <Description>
     [b][u][span style='color: #E80000;']Description[/span][/u][/b][br]
@@ -55,8 +55,8 @@
   </Data>
   <WebUI>http://[IP]:[PORT:9091]/</WebUI>
   <Icon>https://i.imgur.com/DCn2yiv.png</Icon>
-  <DonateText></DonateText>
-  <DonateLink></DonateLink>
+  <DonateText>Help support my work by buying me a beer</DonateText>
+  <DonateLink>https://www.paypal.me/ramteksolutions</DonateLink>
   <DonateImg></DonateImg>
   <ExtraParams></ExtraParams>
 </Containers>
