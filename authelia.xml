@@ -2,7 +2,8 @@
 <Containers>
   <TemplateURL></TemplateURL>
   <Beta>False</Beta>
-  <Category>Security:</Category>
+  <Category>Security: Tools:</Category>
+  <Date>2020-06-28</Date>
   <Name>Authelia</Name>
   <Description>
     [b][u][span style='color: #E80000;']Description[/span][/u][/b][br]
@@ -12,6 +13,17 @@
     [b][u][span style='color: #E80000;']Documentation[/span][/u][/b][br]
     https://docs.authelia.com[br][br]
   </Description>
+  <Changes>
+  [center][font size=5]Authelia Changelog[/font][/center]
+  [font size=4]2020.06.28[/font]
+  - Initial Release
+
+  [font size=4]2020.06.28[/font]
+  - Updated documentation to reflect that the XML is now published in Community Apps and no longer requires manual pull.
+  - Updated logo in XML for Authelia to show in CA.
+  - Updated Categories in XML for Authelia to be Security and Tools.
+  - Added changelog in XML.
+  </Changes>
   <Overview>
         Authelia is an open-source authentication and authorization server providing 2-factor authentication and single sign-on (SSO) for your applications via a web portal. It acts as a companion of reverse proxies like nginx, Traefik or HAProxy to let them know whether queries should pass through. Unauthenticated user are redirected to Authelia Sign-in portal instead.
   </Overview>
