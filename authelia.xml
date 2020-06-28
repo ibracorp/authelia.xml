@@ -27,6 +27,8 @@
     - Added link to install guide.
     - Added changelog in XML.
   </Changes>
+  <Overview>
+  </Overview>
   <Support>https://forums.unraid.net/topic/94096-support-ibracorp-all-images-and-files/</Support>
   <Registry>https://hub.docker.com/r/authelia/authelia/</Registry>
   <GitHub>https://github.com/authelia/authelia</GitHub>
