@@ -54,7 +54,7 @@
     </Volume>
   </Data>
   <WebUI>http://[IP]:[PORT:9091]/</WebUI>
-  <Icon></Icon>
+  <Icon>https://i.imgur.com/DCn2yiv.png</Icon>
   <DonateText></DonateText>
   <DonateLink></DonateLink>
   <DonateImg></DonateImg>
