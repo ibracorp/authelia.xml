@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Containers>
+<Container version="2">
   <TemplateURL></TemplateURL>
   <Beta>False</Beta>
   <Category>Security: Tools:</Category>
@@ -36,14 +36,7 @@
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
-    <Mode>host</Mode>
-    <Publish>
-      <Port>
-        <HostPort>9091</HostPort>
-        <ContainerPort>9091</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-    </Publish>
+    <Mode>bridge</Mode>
   </Networking>
   <Environment>
     <Variable>
@@ -72,4 +65,7 @@
   <DonateLink>https://www.paypal.me/ramteksolutions</DonateLink>
   <DonateImg>https://i.imgur.com/VHSkew7.png</DonateImg>
   <ExtraParams></ExtraParams>
-</Containers>
+  <Config Type="Port" Name="Authelia Web UI" Target="9091" Default="9091" Mode="tcp" Description="This is the Web UI Port, and is used to access the server gui." Display="always" Required="true">9091</Config>
+  <Config Name="PUID" Target="PUID" Default="" Mode="" Description="PUID" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="" Mode="" Description="PGID" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
+</Container>
