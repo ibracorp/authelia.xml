@@ -68,4 +68,5 @@
   <Config Type="Port" Name="Authelia Web UI" Target="9091" Default="9091" Mode="tcp" Description="This is the Web UI Port, and is used to access the server gui." Display="always" Required="true">9091</Config>
   <Config Name="PUID" Target="PUID" Default="" Mode="" Description="PUID" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="" Mode="" Description="PGID" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
+  <Config Name="AppData Config Path" Target="/config" Default="/mnt/user/appdata/authelia" Mode="rw" Description="Container Path: /config" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/authelia</Config>
 </Container>
